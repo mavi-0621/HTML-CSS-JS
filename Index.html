@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cybersecurity Awareness Quiz</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <h1>CyberQuiz</h1>
+
+        <div id="progress">
+            Question 1 / 50
+        </div>
+
+        <div class="question-box">
+            <p id="question"></p>
+        </div>
+
+        <div class="choices">
+
+            <button id="choice0" onclick="checkAnswer(0)"></button>
+
+            <button id="choice1" onclick="checkAnswer(1)"></button>
+
+            <button id="choice2" onclick="checkAnswer(2)"></button>
+
+            <button id="choice3" onclick="checkAnswer(3)"></button>
+
+        </div>
+
+        <div id="feedback"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
